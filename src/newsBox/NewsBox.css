@@ -1,0 +1,40 @@
+.newsBox {
+    width: auto;
+    margin-top: 50px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.newsElement {
+    width: 320px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+
+.newsElement img {
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.newsElement img:hover {
+    object-fit: none;
+    opacity: 0.8;
+}
+
+.descMore {
+    display: flex;
+    align-items: center;
+}
+.descMore svg {
+    width: 18px;
+}
+.descMore a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(96, 96, 255);
+}
